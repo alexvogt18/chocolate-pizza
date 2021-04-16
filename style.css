@@ -1,0 +1,69 @@
+header{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    font-family:'Mr De Haviland', cursive;
+    font-size: 3em;
+    display: inline;
+    margin-left: 5px;
+    float: top;
+}
+
+h3 {
+    display: inline;
+    font-size: 0.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.social_media_1, .social_media{
+    /* display:flex;
+    justify-content: flex-end; */
+    float:right;
+    padding-top: 15px;
+}
+
+#rss {
+    margin-left: 10px;
+}
+
+.stripes {
+    background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 2px,
+        white 2px,
+        white 8px
+    );
+    height: 10px;
+    padding-top: 10px;
+}
+
+body{
+    background-color: bisque;
+    
+}
+
+#Chocolate {
+    width: 100%;
+}
+
+#list_Paper {
+    width: 100%;
+    padding-bottom: 5px;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+* {
+    
+}
