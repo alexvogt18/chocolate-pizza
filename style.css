@@ -4,6 +4,13 @@ header{
     margin-right: 10%;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
 h2 {
     font-family:'Mr De Haviland', cursive;
     font-size: 3em;
@@ -16,6 +23,46 @@ h3 {
     display: inline;
     font-size: 0.5em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+ 
+}
+
+article{
+    display: inline;
+    font-size: 0.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: grey;  
+}
+
+ul {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 200;
+    z-index: 2;
+    font-size: 100%;
+}
+
+#listSect {
+    position: relative;
+    height: 206px;
+}
+
+#left {
+    position: relative;
+    float: left;
+
+}
+
+#right {
+    position: relative;
+    float: right;
+
+}
+
+.strike{
+    text-decoration: line-through;
 }
 
 .social_media_1, .social_media{
@@ -32,17 +79,17 @@ h3 {
 .stripes {
     background: repeating-linear-gradient(
         45deg,
-        black,
-        black 2px,
-        white 2px,
-        white 8px
+        grey,
+        grey 1px,
+        white 1px,
+        white 4px
     );
-    height: 10px;
+    height: 1.5px;
     padding-top: 10px;
 }
 
 body{
-    background-color: bisque;
+    background-color: white;
     
 }
 
@@ -53,7 +100,15 @@ body{
 #list_Paper {
     width: 100%;
     padding-bottom: 5px;
+    z-index: 1;
+    position: absolute;
+    display: block;
 }
+
+#print {
+    float:right;
+}
+
 section{
     margin-left: 10%;
     margin-right: 10%;
@@ -62,8 +117,63 @@ section{
 footer{
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
-* {
-    
+#vanessa {
+    float: left;
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    float: right;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(206, 73, 40);
+    border-width: 0px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#vanessaName {
+    font-family: 'Merriweather', serif;
+    float: left;
+    margin-top: 10px;
+}
+
+#vanessaDesc {
+    float: left;
+    font-size: 13px;
+    margin: 0;
+}
+
+.foottext {
+    font-family: 'Noto Serif', serif;
+    color: grey;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description {
+    height: 150px;
+}
+
+#small_logo {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 100%;
+    position: relative;
 }
